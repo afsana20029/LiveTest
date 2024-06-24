@@ -4,7 +4,7 @@ class Media{
    }
 }
 class Song extends Media{
-
+//
   String artist;
   Song(this.artist );
  @override
@@ -15,8 +15,8 @@ class Song extends Media{
 
 }
 main(){
-  Media Me=Media();
+  Media me=Media();
   Song s1=Song('Arijit');
-  Me.play();
+  me.play();
   s1.play();
 }
